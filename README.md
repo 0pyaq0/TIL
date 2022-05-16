@@ -68,7 +68,3 @@
 ```
 📝 :: README 파일 수정
 ```
-
-<br><br>
-
-* [참고](https://github.com/team-xquare/README.md/blob/main/README.md)
