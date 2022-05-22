@@ -158,7 +158,12 @@ java -jar <jar 이름>
   - Kotlin 컴파일러가 Kotlin 코드를 컴파일해 .class 파일을 생성한다. 이 과정에서 Kotlin 코드가 참조하는 Java 코드가 함께 로딩되어 사용된다.
   - Java 컴파일러가 Java 코드를 컴파일해 .class 파일을 생성한다. 이때 이미 Kotlin이 컴파일한 .class 파일의 경로를 클래스 패스에 추가해 컴파일한다.
 
+<<<<<<< Updated upstream
 <br><br>
+=======
+<br>
+
+>>>>>>> Stashed changes
 - - -
 <br>
 
