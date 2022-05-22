@@ -145,16 +145,20 @@ java -jar <jar 이름>
 ```
 
 #### Kotlin Runtime Library
-- Kotlin 프로젝트 빌드 과정
+- **Kotlin 프로젝트 빌드 과정** 
+	<br>
   <img src = "/Kotlin/img/Kotlin Runtime Library.png">
-  코틀린 컴파일러로 컴파일한 코드는 코틀린 런타임 라이브러리에 의존한다. 이 라이브러리에는 코틀린 자체 표준 라이브러리 클래스와 자바 API의 기능을 확장한 내용이 있다. 코틀린 컴파일한 애플리케이션을 배포할 때는 런타임 라이브러리도 함께 배포해야 한다.
-  <br>
-- Java 코드와 Kotlin 코드가 섞여 있는 프로젝트 컴파일 과정
+	<br>
+  코틀린 컴파일러로 컴파일한 코드는 코틀린 런타임 라이브러리에 의존한다. <br> 이 라이브러리에는 코틀린 자체 표준 라이브러리 클래스와 자바 API의 기능을 확장한 내용이 있다. 코틀린 컴파일한 애플리케이션을 배포할 때는 런타임 라이브러리도 함께 배포해야 한다.
+  <br><br>
+- **Java 코드와 Kotlin 코드가 섞여 있는 프로젝트 컴파일 과정** 
+	<br>
   <img src = "/Kotlin/img/Java_Kotlin.png">
+	<br>
   - Kotlin 컴파일러가 Kotlin 코드를 컴파일해 .class 파일을 생성한다. 이 과정에서 Kotlin 코드가 참조하는 Java 코드가 함께 로딩되어 사용된다.
   - Java 컴파일러가 Java 코드를 컴파일해 .class 파일을 생성한다. 이때 이미 Kotlin이 컴파일한 .class 파일의 경로를 클래스 패스에 추가해 컴파일한다.
 
-<br>
+<br><br>
 - - -
 <br>
 
